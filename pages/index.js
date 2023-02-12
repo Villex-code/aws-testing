@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -102,7 +103,8 @@ export default function Home() {
               Discover and deploy boilerplate example Next.js&nbsp;projects.
             </p>
           </a>
-
+          <Link href="/api/auth/login">Login</Link>
+          <Link href="/api/auth/logout">Logout</Link>
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
