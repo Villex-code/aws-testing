@@ -1,3 +1,5 @@
-// import { handleAuth } from "@auth0/nextjs-auth0";
+import { handleAuth } from "@auth0/nextjs-auth0";
 
-// export default handleAuth();
+console.log("I am in the entry file");
+
+export default handleAuth();
