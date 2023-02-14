@@ -23,7 +23,7 @@ export default function Home({ data }) {
       <br />
       <Link href="/api/auth/logout">Logout</Link>
       <br />
-      Here I am gonna fetch some data
+      Here I am gonna fetch some data Le fam
       {JSON.stringify(data)}
     </>
   );
