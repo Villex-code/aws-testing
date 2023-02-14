@@ -17,6 +17,7 @@ export default function Home({ data }) {
           <p>{user.email}</p>
         </div>
       )} */}
+      New deployment
       <br />
       <Link href="/api/auth/login">Login</Link>
       <br />

@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-villexproj-dev-215528-authRole",
+      "UnauthRoleArn": "arn:aws:iam::364813208909:role/amplify-villexproj-dev-215528-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::364813208909:role/amplify-villexproj-dev-215528-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-villexproj-dev-215528-deployment",
+      "UnauthRoleName": "amplify-villexproj-dev-215528-unauthRole",
+      "StackName": "amplify-villexproj-dev-215528",
+      "StackId": "arn:aws:cloudformation:us-east-1:364813208909:stack/amplify-villexproj-dev-215528/34609f40-ab0f-11ed-aeaa-0e62431fd7a9",
+      "AmplifyAppId": "d1teccw75x2w0c"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1teccw75x2w0c",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

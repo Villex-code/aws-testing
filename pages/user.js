@@ -15,6 +15,11 @@ export default function Profile() {
     //     <p>{user.email}</p>
     //   </div>
     // )
-    <div>Just a user</div>
+    <div>
+      Enviromental variables
+      <ul>
+        <li> 1 {console.log(process.env.AUTH0_SECRET)}</li>
+      </ul>
+    </div>
   );
 }
