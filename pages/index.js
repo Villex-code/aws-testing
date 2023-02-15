@@ -8,6 +8,7 @@ import { useUser } from "@auth0/nextjs-auth0/client";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ data }) {
+  //console.log("The name of my env var is ", process.env.MY_VAR);
   return (
     <>
       {/* {user && (
@@ -30,7 +31,7 @@ export default function Home({ data }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const res = await fetch(process.env.MY_ENV_LINK);
   const data = await res.json();
 
   return {
