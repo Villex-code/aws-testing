@@ -8,21 +8,13 @@ import { useUser } from "@auth0/nextjs-auth0/client";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ data }) {
-  //console.log("The name of my env var is ", process.env.MY_VAR);
   return (
     <>
-      {/* {user && (
-        <div>
-          <img src={user.picture} alt={user.name} />
-          <h2>{user.name}</h2>
-          <p>{user.email}</p>
-        </div>
-      )} */}
       New deployment here
       <br />
-      <Link href="/api/auth/login">Login</Link>
+      <Link href="/api/auth/login">Login with auth0</Link>
       <br />
-      <Link href="/api/auth/logout">Logout</Link>
+      <Link href="/api/auth/logout">Logout from auth0</Link>
       <br />
       Here I am gonna fetch some data Le fam
       {JSON.stringify(data)}

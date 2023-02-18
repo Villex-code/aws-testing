@@ -8,18 +8,12 @@ export default function Profile() {
   if (error) return <div>{error.message}</div>;
 
   return (
-    <div>
-      Enviromental variables
-      {user && (
-        <div>
-          <img src={user.picture} alt={user.name} />
-          <h2>{user.name}</h2>
-          <p>{user.email}</p>
-        </div>
-      )}
-      <ul>
-        <li> 1 {console.log(process.env.AUTH0_SECRET)}</li>
-      </ul>
-    </div>
+    user && (
+      <div>
+        <img src={user.picture} alt={user.name} />
+        <h2>{user.name}</h2>
+        <p>{user.email}</p>
+      </div>
+    )
   );
 }
